@@ -40,9 +40,9 @@ Right-click Network settings → Ethernet → DNS settings
 ### Bypasses & VPN
 
 - [Zapret](https://github.com/Flowseal/zapret-discord-youtube) by Flowseal
-    1. Update the Windows **hosts** file.
-    2. Copy [list-general-user](Zapret/list-general-user.txt) into the `lists` directory.
-    3. Run diagnostics for all strategies and choose the one that works best for your network.
+    - Update the Windows **hosts** file.
+    - Copy [list-general-user](Zapret/list-general-user.txt) into the `lists` directory.
+    - Run diagnostics for all strategies and choose the one that works best for your network.
 - [TG-WS](https://github.com/Flowseal/tg-ws-proxy) by Flowseal
     - In configuration turn on **Run on PC startup**
     - After installing **Telegram** double click on icon in tray
@@ -128,6 +128,7 @@ Install the following mods in Windhawk:
 ## Other
 
 - [Windows Terminal Config](Windows/Terminal/settings.json)
+    - **Warning:** Install it if you have git bash installed as Terminal profile.
 
 ## Post-Install
 
