@@ -9,6 +9,7 @@ Everything that i install on windows step-by-step. Download this repo as ZIP and
 - [Atlas OS](https://atlasos.net/)
 - [Wallpaper](Windows/wallpaper.jpg)
     - Put it in **Windows Images Folder**
+    - More wallpapers in good quality. [Link](https://github.com/dharmx/walls)
 - [Fonts](Windows/Fonts)
 - [Cursor](Windows/Cursor/Cursor%20Dark/)
 
