@@ -2,6 +2,8 @@
 
 Everything that i install on windows step-by-step. Download this repo as ZIP and follow from top to bottom this Readme.
 
+> [Download ZIP](https://github.com/Keva1z/Windows-Configuration/archive/refs/heads/main.zip)
+
 ### Windows & Patch
 
 - [Atlas OS](https://atlasos.net/)
