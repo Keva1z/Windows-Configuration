@@ -23,6 +23,10 @@ Make sure to install all necessary drivers from your hardware manufacturer's web
 
 If you need a Wi-Fi driver, download it to a USB drive before reinstalling Windows. Atlas may preserve existing drivers, allowing you to connect to Wi-Fi after installation.
 
+### Windows activation
+
+In Terminal write `irm https://get.activated.win | iex` to activate windows.
+
 ### DNS
 
 Right-click Network settings → Ethernet → DNS settings
@@ -114,6 +118,10 @@ Install the following mods in Windhawk:
 #### NVIDIA App
 
 - [NVIDIA App](https://www.nvidia.com/en-us/software/nvidia-app/)
+
+#### qBittorrent
+
+- [qBittorrent](https://www.qbittorrent.org/download)
 
 ---
 
