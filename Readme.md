@@ -17,7 +17,11 @@ This repository contains everything I install and configure on a fresh Windows i
 
 **Atlas** is windows patcher & ISO creation tool. It helps reduce background processes, telemetry, preinstalled apps and other unwanted Windows components.
 
-### DO NOT FORGET TO INSTALL DRIVERS. You can find them on the manufacturer's website. If you need Wifi driver, then install it on USB before windows reinstall. But Atlas 	retains your drivers, so you can connect to Wifi after reinstall.
+### DRIVERS
+
+Make sure to install all necessary drivers from your hardware manufacturer's website.
+
+If you need a Wi-Fi driver, download it to a USB drive before reinstalling Windows. Atlas may preserve existing drivers, allowing you to connect to Wi-Fi after installation.
 
 ### DNS
 
@@ -36,8 +40,8 @@ Right-click Network settings → Ethernet → DNS settings
 ### Bypasses & VPN
 
 - [Zapret](https://github.com/Flowseal/zapret-discord-youtube) by Flowseal
-    1. Update **Hosts** file
-    2. Copy [list-general-user](Zapret/list-general-user.txt) & paste it in lists
+    1. Update the Windows **hosts** file.
+    2. Copy [list-general-user](Zapret/list-general-user.txt) into the `lists` directory.
     3. Run diagnostics for all strategies and choose the one that works best for your network.
 - [TG-WS](https://github.com/Flowseal/tg-ws-proxy) by Flowseal
     - In configuration turn on **Run on PC startup**
@@ -70,7 +74,7 @@ Install the following mods in Windhawk:
 [LuxuryGram](https://github.com/GofMan5/LuxuryGram)
     - [Settings](Telegram/Settings.md) for AyuGram & LuxuryGram
 
-**LuxuryGram** is upgraded version of **AyuGram** with optimizations & enhancements. By [GofMan5](https://github.com/GofMan5).
+**LuxuryGram** is an enhanced version of **AyuGram**, featuring additional optimizations and improvements. Developed by [GofMan5](https://github.com/GofMan5).
 
 ---
 
@@ -117,7 +121,7 @@ Install the following mods in Windhawk:
 
 - [Git](https://git-scm.com/install/windows)
 - [VSCode](https://code.visualstudio.com/)
-- [UV](https://github.com/astral-sh/uv)
+- [uv](https://github.com/astral-sh/uv)
 - [Docker](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 
@@ -131,5 +135,5 @@ Install the following mods in Windhawk:
 - Configure display refresh rate.
 - Configure your browser to your liking.
 - Sign in to all your accounts.
-- Clear download folder.
+- Clean up the Downloads folder.
 - Create a system restore point.
