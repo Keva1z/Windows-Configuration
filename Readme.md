@@ -1,25 +1,27 @@
 # Windows configuration
 
-Everything that i install on windows step-by-step. Download this repo as ZIP and follow from top to bottom this Readme.
+My personal Windows setup guide.
+
+This repository contains everything I install and configure on a fresh Windows installation. Download the ZIP archive and follow this README from top to bottom.
 
 > [Download ZIP](https://github.com/Keva1z/Windows-Configuration/archive/refs/heads/main.zip)
 
-### Windows & Patch
+### Windows & Customization
 
 - [Atlas OS](https://atlasos.net/)
 - [Wallpaper](Windows/wallpaper.jpg)
-    - Put it in **Windows Images Folder**
+    - Put it in **Windows Images folder**
     - More wallpapers in good quality. [Link](https://github.com/dharmx/walls)
 - [Fonts](Windows/Fonts)
 - [Cursor](Windows/Cursor/Cursor%20Dark/)
 
-**Atlas** is windows patcher & ISO creation tool. It removes background activity, telemetry, ads and etc.
+**Atlas** is windows patcher & ISO creation tool. It helps reduce background processes, telemetry, preinstalled apps and other unwanted Windows components.
 
-### DO NOT FORGET TO INSTALL DRIVERS. You can find them in your browser. If you need Wifi driver, then install it on USB before windows reinstall. But Atlas keeps your driver, so you can connect to Wifi after reinstall.
+### DO NOT FORGET TO INSTALL DRIVERS. You can find them on the manufacturer's website. If you need Wifi driver, then install it on USB before windows reinstall. But Atlas 	retains your drivers, so you can connect to Wifi after reinstall.
 
 ### DNS
 
-RMB on Network parameters -> Ethernet -> DNS
+Right-click Network settings → Ethernet → DNS settings
 
 - **IPv4:** 8.8.8.8 **/** 8.8.4.4
 - **IPv6:** 2001:4860:4860::8888 **/** 2001:4860:4860::8844
@@ -36,12 +38,12 @@ RMB on Network parameters -> Ethernet -> DNS
 - [Zapret](https://github.com/Flowseal/zapret-discord-youtube) by Flowseal
     1. Update **Hosts** file
     2. Copy [list-general-user](Zapret/list-general-user.txt) & paste it in lists
-    3. Run diagnostics on all strategies to get your best
+    3. Run diagnostics for all strategies and choose the one that works best for your network.
 - [TG-WS](https://github.com/Flowseal/tg-ws-proxy) by Flowseal
     - In configuration turn on **Run on PC startup**
     - After installing **Telegram** double click on icon in tray
 - [Happ](https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x64.exe)
-    - Turn on **fragmentation**
+    - Enable **fragmentation**
 
 ---
 
@@ -49,7 +51,7 @@ RMB on Network parameters -> Ethernet -> DNS
 
 - [Windhawk](https://ramensoftware.com/downloads/windhawk_setup.exe)
 
-In windhawk install this mods:
+Install the following mods in Windhawk:
 
 - Windows 11 Start Menu Styler.
     - **Theme:** TransculentStartMenu
@@ -68,7 +70,7 @@ In windhawk install this mods:
 [LuxuryGram](https://github.com/GofMan5/LuxuryGram)
     - [Settings](Telegram/Settings.md) for AyuGram & LuxuryGram
 
-**LuxuryGram** is upgraded version of **AyuGram** with optimizations & enchances. By [GofMan5](https://github.com/GofMan5).
+**LuxuryGram** is upgraded version of **AyuGram** with optimizations & enhancements. By [GofMan5](https://github.com/GofMan5).
 
 ---
 
@@ -123,6 +125,11 @@ In windhawk install this mods:
 
 - [Windows Terminal Config](Windows/Terminal/settings.json)
 
+## Post-Install
 
-
-
+- Disable unnecessary startup applications.
+- Configure display refresh rate.
+- Configure your browser to your liking.
+- Sign in to all your accounts.
+- Clear download folder.
+- Create a system restore point.
